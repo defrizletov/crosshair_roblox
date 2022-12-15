@@ -53,7 +53,7 @@ guiTab:AddTextbox({
 	end	  
 });
 
-local transparencySlider = guiTab:AddSlider({
+guiTab:AddSlider({
 	Name = "Transparency",
 	Default = 10,
     Min = 0,
