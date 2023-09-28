@@ -1,5 +1,3 @@
--- made by antoha.lua
-
 local screenSizes = {};
 for size in tostring(workspace.CurrentCamera.ViewportSize):gmatch("([^, ]+)") do table.insert(screenSizes, size); end;
 
